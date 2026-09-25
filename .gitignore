@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Test & Upload Runtime Data
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/recovered/*
+!backend/recovered/.gitkeep
+backend/reports/*
+!backend/reports/.gitkeep
+
+# Build Outputs
+frontend/dist/
+*.log
+.DS_Store
