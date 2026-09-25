@@ -1,0 +1,9 @@
+{
+  "case_id": "CL-2026-091",
+  "type": "synthetic_evidence",
+  "items": [
+    "document",
+    "invoice",
+    "image"
+  ]
+}

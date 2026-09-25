@@ -1,0 +1,60 @@
+{
+  "reportId": "rep_rec_1790364835911_2a590bd9",
+  "timestamp": "2026-09-25T19:34:02.541Z",
+  "userDescription": "No user issue description provided.",
+  "originalFilename": "Unknown",
+  "fileType": "UNKNOWN",
+  "fileSize": 0,
+  "sha256": "N/A",
+  "damageStatus": "CORRUPTED",
+  "dataProfile": {
+    "fileType": "PNG",
+    "damageStatus": "INTACT",
+    "providedBytes": 2853,
+    "assembledBytes": 326,
+    "recoveredOutputBytes": 326,
+    "estimatedOriginalBytes": 326,
+    "estimatedMissingBytes": null,
+    "formatMetadata": {
+      "bufferLength": 326,
+      "width": 1,
+      "height": 33752069,
+      "bitDepth": 6,
+      "colorType": 7,
+      "pngChunks": [
+        "IHDR",
+        "\u0013\u0014\u0015\u0016"
+      ]
+    }
+  },
+  "evidenceSources": [],
+  "fragmentSummary": {
+    "totalFragments": 5,
+    "recoveredFragments": 5,
+    "missingFragments": 10
+  },
+  "recoveryMetrics": {
+    "recoveredPercentage": 100,
+    "reconstructedPercentage": 0,
+    "enhancedPercentage": 0,
+    "aiInferredPercentage": 0,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "VERIFIED_RECOVERED"
+  },
+  "validationResults": {
+    "structureValid": true,
+    "signatureValid": true,
+    "formatConsistency": true,
+    "score": 100,
+    "checks": [
+      "PASS: PNG Header Magic Bytes",
+      "PASS: PNG First Chunk (IHDR)",
+      "PASS: PNG Final Chunk (IEND)",
+      "PASS: PNG Data Chunks (IDAT)"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 5 verified fragments with PNG structure validation. Missing evidence scan: additional fragments were checked and relevant matches were identified. Classification: VERIFIED_RECOVERED.",
+  "limitations": [],
+  "aiAssessment": null,
+  "auditTrail": []
+}

@@ -1,0 +1,70 @@
+{
+  "reportId": "rep_rec_1790364523798_065f9041",
+  "timestamp": "2026-09-25T19:28:43.874Z",
+  "userDescription": "No user issue description provided.",
+  "originalFilename": "pdf_frag_01.bin",
+  "fileType": "PDF",
+  "fileSize": 321,
+  "sha256": "f628432eda521b8615002f51f7758a9818713d28056148c6c7cd333b3868d26b",
+  "damageStatus": "TRUNCATED",
+  "dataProfile": {
+    "fileType": "PDF",
+    "damageStatus": "TRUNCATED",
+    "providedBytes": 321,
+    "assembledBytes": 493,
+    "recoveredOutputBytes": 493,
+    "estimatedOriginalBytes": 482,
+    "estimatedMissingBytes": 161,
+    "formatMetadata": {
+      "bufferLength": 493,
+      "pdfVersion": "1.7",
+      "objectCount": 2,
+      "hasCatalog": false,
+      "hasXref": false,
+      "hasEOF": true
+    }
+  },
+  "evidenceSources": [],
+  "fragmentSummary": {
+    "totalFragments": 0,
+    "recoveredFragments": 0,
+    "missingFragments": 10
+  },
+  "recoveryMetrics": {
+    "recoveredPercentage": 90,
+    "reconstructedPercentage": 0,
+    "enhancedPercentage": 0,
+    "aiInferredPercentage": 10,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "AI_INFERRED"
+  },
+  "validationResults": {
+    "structureValid": true,
+    "signatureValid": true,
+    "formatConsistency": true,
+    "score": 75,
+    "checks": [
+      "PASS: PDF Header Signature (%PDF-)",
+      "PASS: PDF Trailer Signature (%%EOF)",
+      "FAIL: PDF Document Catalog / Object Streams",
+      "PASS: PDF Object Structures"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 0 verified fragments with PDF structure validation. Missing evidence scan: additional fragments were checked and relevant matches were identified. Classification: AI_INFERRED.",
+  "limitations": [
+    "File structure repaired using AI contextual inference. Non-verified sections marked AI_INFERRED."
+  ],
+  "aiAssessment": null,
+  "auditTrail": [
+    {
+      "action": "UPLOAD",
+      "timestamp": "2026-09-25T19:28:43.782Z",
+      "hash": "c6b1daca0e42020fb1c47c39b57407c54234cd8aa50420055f58217a048290ba"
+    },
+    {
+      "action": "RECOVERY_ATTEMPT",
+      "timestamp": "2026-09-25T19:28:43.819Z",
+      "hash": "6897376a8267d8829f8e5acacd2bcc3001ff14515c900c41068e63b3b44fc297"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "reportId": "rep_rec_1790363307324_e6538025",
+  "timestamp": "2026-09-25T19:08:28.376Z",
+  "userDescription": "The image is dark and blurry. Need a cleaner forensic-quality 4K output for inspection.",
+  "originalFilename": "tmp-enhance-test.png",
+  "fileType": "PNG",
+  "fileSize": 22473,
+  "sha256": "4e89a3780600522c2350d4c91bcb4bdad906b4c37e06785ba03d02b9b0496565",
+  "damageStatus": "INTACT",
+  "evidenceSources": [],
+  "fragmentSummary": {
+    "totalFragments": 0,
+    "recoveredFragments": 0,
+    "missingFragments": 10
+  },
+  "recoveryMetrics": {
+    "recoveredPercentage": 100,
+    "reconstructedPercentage": 0,
+    "enhancedPercentage": 85,
+    "aiInferredPercentage": 0,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "VERIFIED_RECOVERED"
+  },
+  "validationResults": {
+    "structureValid": true,
+    "signatureValid": true,
+    "formatConsistency": true,
+    "score": 100,
+    "checks": [
+      "PASS: PNG Header Magic Bytes",
+      "PASS: PNG First Chunk (IHDR)",
+      "PASS: PNG Final Chunk (IEND)",
+      "PASS: PNG Data Chunks (IDAT)"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 0 verified fragments with PNG structure validation. Missing evidence scan: additional fragments were checked and relevant matches were identified. Classification: VERIFIED_RECOVERED.",
+  "limitations": [],
+  "aiAssessment": null,
+  "auditTrail": [
+    {
+      "action": "UPLOAD",
+      "timestamp": "2026-09-25T19:08:27.290Z",
+      "hash": "1e8544b1a5288fdf169a6c0d4a41b757716fafd281e5fcd4263d42d4e726ddc9"
+    },
+    {
+      "action": "RECOVERY_ATTEMPT",
+      "timestamp": "2026-09-25T19:08:28.352Z",
+      "hash": "a84d78284524f129a0d32ef5b359e262ab4fc69ede1e635c104543a9a532c0c2"
+    }
+  ]
+}

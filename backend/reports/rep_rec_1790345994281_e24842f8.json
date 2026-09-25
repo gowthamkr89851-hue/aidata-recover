@@ -1,0 +1,48 @@
+{
+  "reportId": "rep_rec_1790345994281_e24842f8",
+  "timestamp": "2026-09-25T14:20:59.092Z",
+  "originalFilename": "fragment_notes_02_CORRUPTED.bin",
+  "fileType": "CSV",
+  "fileSize": 41,
+  "sha256": "3f667e71178ab4bad8f284885faa62e887180d290f9458f78c95ea069eba38e1",
+  "damageStatus": "INTACT",
+  "evidenceSources": [],
+  "recoveryMetrics": {
+    "recoveredPercentage": 85,
+    "aiInferredPercentage": 0,
+    "unrecoverablePercentage": 15,
+    "finalClassification": "AI_INFERRED"
+  },
+  "validationResults": {
+    "structureValid": false,
+    "signatureValid": true,
+    "formatConsistency": false,
+    "score": 50,
+    "checks": [
+      "PASS: CSV Non-empty Lines Line count: 3",
+      "FAIL: CSV Column Consistency Across Rows"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 0 verified fragments with CSV structure validation. Classification: AI_INFERRED.",
+  "limitations": [
+    "Incomplete evidence fragments. Unrecovered portion remains missing and un-fabricated."
+  ],
+  "aiAssessment": null,
+  "auditTrail": [
+    {
+      "action": "UPLOAD",
+      "timestamp": "2026-09-25T14:19:41.586Z",
+      "hash": "46475d71b40746609b3fafdd361eabcaacb33c9a6cdfd1d76b5648092e55b765"
+    },
+    {
+      "action": "ANALYZE",
+      "timestamp": "2026-09-25T14:19:48.806Z",
+      "hash": "804bb21bfa1fd9d10de9aa04258d466d2e95fb8fedd386d5e86c5e24185a358d"
+    },
+    {
+      "action": "RECOVERY_ATTEMPT",
+      "timestamp": "2026-09-25T14:19:54.322Z",
+      "hash": "3f667e71178ab4bad8f284885faa62e887180d290f9458f78c95ea069eba38e1"
+    }
+  ]
+}

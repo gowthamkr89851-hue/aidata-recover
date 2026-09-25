@@ -1,0 +1,3 @@
+invoice_id,customer,amount,currency,status
+INV-1001,Demo Industries,12500,INR,Paid
+I

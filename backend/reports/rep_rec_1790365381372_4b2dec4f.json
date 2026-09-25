@@ -1,0 +1,75 @@
+{
+  "reportId": "rep_rec_1790365381372_4b2dec4f",
+  "timestamp": "2026-09-25T19:43:02.330Z",
+  "userDescription": "The image is dark and blurry. Need a cleaner forensic-quality 4K output for inspection.",
+  "originalFilename": "tmp-enhance-test.png",
+  "fileType": "PNG",
+  "fileSize": 22473,
+  "sha256": "4e89a3780600522c2350d4c91bcb4bdad906b4c37e06785ba03d02b9b0496565",
+  "damageStatus": "INTACT",
+  "dataProfile": {
+    "fileType": "PNG",
+    "damageStatus": "INTACT",
+    "providedBytes": 22473,
+    "assembledBytes": 22473,
+    "recoveredOutputBytes": 12401,
+    "estimatedOriginalBytes": 22473,
+    "estimatedMissingBytes": null,
+    "formatMetadata": {
+      "bufferLength": 12401,
+      "width": 3840,
+      "height": 2160,
+      "bitDepth": 8,
+      "colorType": 3,
+      "pngChunks": [
+        "IHDR",
+        "PLTE",
+        "pHYs",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ]
+    }
+  },
+  "evidenceSources": [],
+  "fragmentSummary": {
+    "totalFragments": 0,
+    "recoveredFragments": 0,
+    "missingFragments": 10
+  },
+  "recoveryMetrics": {
+    "recoveredPercentage": 100,
+    "reconstructedPercentage": 0,
+    "enhancedPercentage": 85,
+    "aiInferredPercentage": 0,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "VERIFIED_RECOVERED"
+  },
+  "validationResults": {
+    "structureValid": true,
+    "signatureValid": true,
+    "formatConsistency": true,
+    "score": 100,
+    "checks": [
+      "PASS: PNG Header Magic Bytes",
+      "PASS: PNG First Chunk (IHDR)",
+      "PASS: PNG Final Chunk (IEND)",
+      "PASS: PNG Data Chunks (IDAT)"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 0 verified fragments with PNG structure validation. Missing evidence scan: additional fragments were checked and relevant matches were identified. Classification: VERIFIED_RECOVERED.",
+  "limitations": [],
+  "aiAssessment": null,
+  "auditTrail": [
+    {
+      "action": "UPLOAD",
+      "timestamp": "2026-09-25T19:43:01.339Z",
+      "hash": "fdca65b6d3fbad326da345b59a9b185604fd91b7a09ad65a092013930dab4104"
+    },
+    {
+      "action": "RECOVERY_ATTEMPT",
+      "timestamp": "2026-09-25T19:43:02.287Z",
+      "hash": "a84d78284524f129a0d32ef5b359e262ab4fc69ede1e635c104543a9a532c0c2"
+    }
+  ]
+}

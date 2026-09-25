@@ -1,0 +1,31 @@
+{
+  "reportId": "rep_rec_1790360076909_3c4f61f5",
+  "timestamp": "2026-09-25T18:15:06.310Z",
+  "originalFilename": "Unknown",
+  "fileType": "UNKNOWN",
+  "fileSize": 0,
+  "sha256": "N/A",
+  "damageStatus": "CORRUPTED",
+  "evidenceSources": [],
+  "recoveryMetrics": {
+    "recoveredPercentage": 0,
+    "aiInferredPercentage": 0,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "UNRECOVERABLE"
+  },
+  "validationResults": {
+    "structureValid": false,
+    "signatureValid": false,
+    "formatConsistency": false,
+    "score": 0,
+    "checks": [
+      "FAIL: Unknown Format Signature Match No valid magic bytes or format structure identified"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 1 verified fragments with JPG structure validation. Classification: UNRECOVERABLE.",
+  "limitations": [
+    "Unrecognized file structure and zero valid format signatures found. Original data unrecoverable."
+  ],
+  "aiAssessment": null,
+  "auditTrail": []
+}

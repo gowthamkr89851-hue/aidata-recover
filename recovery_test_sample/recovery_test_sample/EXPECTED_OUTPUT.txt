@@ -1,0 +1,34 @@
+EXPECTED TEST OUTPUT
+
+Input: damaged_input/
+
+Reconstruct successfully:
+- incident_report.txt -> TXT -> 100% integrity
+- financial_invoice.csv -> CSV -> 100% integrity
+- evidence_notes.json -> JSON -> 100% integrity
+- evidence_image.png -> PNG -> 100% integrity
+
+Special findings:
+- fragment_notes_02_CORRUPTED.bin -> corruption detected
+- truncated_invoice.bin -> truncated/incomplete candidate
+- duplicate_image_fragment.bin -> exact duplicate of fragment_image_01.bin
+- unknown_binary.bin -> UNKNOWN type
+- intact_readme.txt -> intact TXT
+
+Example dashboard:
+Fragments analyzed: 17
+Successful reconstructions: 4
+Corrupted candidates: 1
+Truncated candidates: 1
+Duplicate fragments: 1
+Unknown files: 1
+
+File                    Type       Integrity   Status
+incident_report.txt     TXT        100%        Recovered
+financial_invoice.csv   CSV        100%        Recovered
+evidence_notes.json     JSON       100%        Recovered
+evidence_image.png      PNG        100%        Recovered
+truncated_invoice.bin   CSV?       ~50%        Partial
+unknown_binary.bin      UNKNOWN    N/A         Unknown
+
+Note: the exact score for damaged/truncated data depends on your algorithm.

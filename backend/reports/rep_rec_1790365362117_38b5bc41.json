@@ -1,0 +1,59 @@
+{
+  "reportId": "rep_rec_1790365362117_38b5bc41",
+  "timestamp": "2026-09-25T19:42:42.172Z",
+  "userDescription": "No user issue description provided.",
+  "originalFilename": "Unknown",
+  "fileType": "UNKNOWN",
+  "fileSize": 0,
+  "sha256": "N/A",
+  "damageStatus": "CORRUPTED",
+  "dataProfile": {
+    "fileType": "PDF",
+    "damageStatus": "CORRUPTED",
+    "providedBytes": 322,
+    "assembledBytes": 322,
+    "recoveredOutputBytes": 322,
+    "estimatedOriginalBytes": 322,
+    "estimatedMissingBytes": null,
+    "formatMetadata": {
+      "bufferLength": 322,
+      "pdfVersion": "1.7",
+      "objectCount": 2,
+      "hasCatalog": false,
+      "hasXref": false,
+      "hasEOF": false
+    }
+  },
+  "evidenceSources": [],
+  "fragmentSummary": {
+    "totalFragments": 1,
+    "recoveredFragments": 1,
+    "missingFragments": 10
+  },
+  "recoveryMetrics": {
+    "recoveredPercentage": 0,
+    "reconstructedPercentage": 0,
+    "enhancedPercentage": 0,
+    "aiInferredPercentage": 0,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "UNRECOVERABLE"
+  },
+  "validationResults": {
+    "structureValid": false,
+    "signatureValid": true,
+    "formatConsistency": false,
+    "score": 50,
+    "checks": [
+      "PASS: PDF Header Signature (%PDF-)",
+      "FAIL: PDF Trailer Signature (%%EOF)",
+      "FAIL: PDF Document Catalog / Object Streams",
+      "PASS: PDF Object Structures"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 1 verified fragments with PDF structure validation. Missing evidence scan: additional fragments were checked and relevant matches were identified. Classification: UNRECOVERABLE.",
+  "limitations": [
+    "Insufficient evidence to reconstruct valid file structure."
+  ],
+  "aiAssessment": null,
+  "auditTrail": []
+}

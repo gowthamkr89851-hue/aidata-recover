@@ -1,0 +1,58 @@
+{
+  "reportId": "rep_rec_1790343162626_120226b2",
+  "timestamp": "2026-09-25T13:32:44.953Z",
+  "originalFilename": "fragment_image_03.bin",
+  "fileType": "UNKNOWN",
+  "fileSize": 17,
+  "sha256": "d55da6a930ebdc27d0916dbc1477a8101492a0bb6cac61194c86c37a26a72b68",
+  "damageStatus": "UNKNOWN_FORMAT",
+  "evidenceSources": [],
+  "recoveryMetrics": {
+    "recoveredPercentage": 0,
+    "aiInferredPercentage": 0,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "UNRECOVERABLE"
+  },
+  "validationResults": {
+    "structureValid": false,
+    "signatureValid": false,
+    "formatConsistency": false,
+    "score": 0,
+    "checks": [
+      "Zero recoverable evidence found"
+    ]
+  },
+  "recoveryExplanation": "File original data cannot be established because no matching evidence fragments or valid file headers exist. Missing bytes were not fabricated.",
+  "limitations": [
+    "Original data unrecoverable from provided sample",
+    "No ground-truth evidence available"
+  ],
+  "aiAssessment": null,
+  "auditTrail": [
+    {
+      "action": "UPLOAD",
+      "timestamp": "2026-09-25T13:32:27.535Z",
+      "hash": "4ebad2d614ed2b9660ed30ac437ba8dc9021e2cb3c3a540c4c4f4dc0157aa5ac"
+    },
+    {
+      "action": "ANALYZE",
+      "timestamp": "2026-09-25T13:32:35.300Z",
+      "hash": "952cb3ac825f606428f9618d3f2f47ca00631876b78edb1140726af6ff92550e"
+    },
+    {
+      "action": "ANALYZE",
+      "timestamp": "2026-09-25T13:32:39.345Z",
+      "hash": "952cb3ac825f606428f9618d3f2f47ca00631876b78edb1140726af6ff92550e"
+    },
+    {
+      "action": "ANALYZE",
+      "timestamp": "2026-09-25T13:32:40.051Z",
+      "hash": "952cb3ac825f606428f9618d3f2f47ca00631876b78edb1140726af6ff92550e"
+    },
+    {
+      "action": "RECOVERY_ATTEMPT",
+      "timestamp": "2026-09-25T13:32:42.645Z",
+      "hash": "NO_SHA"
+    }
+  ]
+}

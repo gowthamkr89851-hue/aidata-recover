@@ -1,0 +1,48 @@
+{
+  "reportId": "rep_rec_1790360709711_43306192",
+  "timestamp": "2026-09-25T18:25:16.041Z",
+  "originalFilename": "Screenshot 2026-03-14 105726.png",
+  "fileType": "PNG",
+  "fileSize": 461566,
+  "sha256": "93487c54e9b73d15bdc34579155117479ae61f31a0c490c3932ebd2f4509879d",
+  "damageStatus": "INTACT",
+  "evidenceSources": [],
+  "recoveryMetrics": {
+    "recoveredPercentage": 100,
+    "aiInferredPercentage": 0,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "VERIFIED_RECOVERED"
+  },
+  "validationResults": {
+    "structureValid": true,
+    "signatureValid": true,
+    "formatConsistency": true,
+    "score": 100,
+    "checks": [
+      "PASS: PNG Header Magic Bytes",
+      "PASS: PNG First Chunk (IHDR)",
+      "PASS: PNG Final Chunk (IEND)",
+      "PASS: PNG Data Chunks (IDAT)"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 0 verified fragments with PNG structure validation. Classification: VERIFIED_RECOVERED.",
+  "limitations": [],
+  "aiAssessment": null,
+  "auditTrail": [
+    {
+      "action": "UPLOAD",
+      "timestamp": "2026-09-25T18:24:52.306Z",
+      "hash": "40d05865f68e440b1a817894fa39159f03d501ee92d663a4643e03edb946449a"
+    },
+    {
+      "action": "ANALYZE",
+      "timestamp": "2026-09-25T18:24:52.320Z",
+      "hash": "ec2b8dc0661fa27236e635f4d1e96c9c4afe86f6cda90879e4995bf4d211c4fe"
+    },
+    {
+      "action": "RECOVERY_ATTEMPT",
+      "timestamp": "2026-09-25T18:25:10.996Z",
+      "hash": "93487c54e9b73d15bdc34579155117479ae61f31a0c490c3932ebd2f4509879d"
+    }
+  ]
+}

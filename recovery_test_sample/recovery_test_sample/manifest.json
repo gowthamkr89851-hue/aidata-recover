@@ -1,0 +1,49 @@
+{
+  "expected_reconstructions": [
+    {
+      "output": "incident_report.txt",
+      "fragments": [
+        "fragment_report_01.bin",
+        "fragment_report_02.bin",
+        "fragment_report_03.bin"
+      ]
+    },
+    {
+      "output": "financial_invoice.csv",
+      "fragments": [
+        "fragment_invoice_01.bin",
+        "fragment_invoice_02.bin",
+        "fragment_invoice_03.bin"
+      ]
+    },
+    {
+      "output": "evidence_notes.json",
+      "fragments": [
+        "fragment_notes_01.bin",
+        "fragment_notes_02.bin",
+        "fragment_notes_03.bin"
+      ]
+    },
+    {
+      "output": "evidence_image.png",
+      "fragments": [
+        "fragment_image_01.bin",
+        "fragment_image_02.bin",
+        "fragment_image_03.bin",
+        "fragment_image_04.bin"
+      ]
+    }
+  ],
+  "special_tests": {
+    "corruption": "fragment_notes_02_CORRUPTED.bin",
+    "truncation": "truncated_invoice.bin",
+    "duplicate": "duplicate_image_fragment.bin",
+    "unknown": "unknown_binary.bin"
+  },
+  "expected_sha256": {
+    "evidence_image.png": "66798e0f014b90c10de08a52128cf9e1b1b3a77ccede8ab2f42dd8b733dd597a",
+    "evidence_notes.json": "4d758778c619e5fea2c87857509e17db7700f8165a5a05982db4b8cfdf545b9c",
+    "financial_invoice.csv": "530ed8d51bb95127c18633bc6d9b272a1b1abb569ab9da37dcf009c784e8bf69",
+    "incident_report.txt": "3b00e2137eefca0e2bdec817552e8e56e87f8f4f72ea0694e97aa74947e66881"
+  }
+}

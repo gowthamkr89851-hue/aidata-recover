@@ -1,0 +1,53 @@
+{
+  "reportId": "rep_rec_1790363308446_7ffd898d",
+  "timestamp": "2026-09-25T19:08:28.525Z",
+  "userDescription": "No user issue description provided.",
+  "originalFilename": "pdf_frag_01.bin",
+  "fileType": "PDF",
+  "fileSize": 322,
+  "sha256": "fbdde1a94686dd56a4e2cc2b1f7d9acd4bca4bd9901855a733042edc2e9e879b",
+  "damageStatus": "TRUNCATED",
+  "evidenceSources": [],
+  "fragmentSummary": {
+    "totalFragments": 0,
+    "recoveredFragments": 0,
+    "missingFragments": 10
+  },
+  "recoveryMetrics": {
+    "recoveredPercentage": 90,
+    "reconstructedPercentage": 0,
+    "enhancedPercentage": 0,
+    "aiInferredPercentage": 10,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "AI_INFERRED"
+  },
+  "validationResults": {
+    "structureValid": true,
+    "signatureValid": true,
+    "formatConsistency": true,
+    "score": 75,
+    "checks": [
+      "PASS: PDF Header Signature (%PDF-)",
+      "PASS: PDF Trailer Signature (%%EOF)",
+      "FAIL: PDF Document Catalog / Object Streams",
+      "PASS: PDF Object Structures"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 0 verified fragments with PDF structure validation. Missing evidence scan: additional fragments were checked and relevant matches were identified. Classification: AI_INFERRED.",
+  "limitations": [
+    "File structure repaired using AI contextual inference. Non-verified sections marked AI_INFERRED."
+  ],
+  "aiAssessment": null,
+  "auditTrail": [
+    {
+      "action": "UPLOAD",
+      "timestamp": "2026-09-25T19:08:28.430Z",
+      "hash": "83cc9189295e5c894dfb11250e7e06011905f08f557e2bc602aa265a6826b6f8"
+    },
+    {
+      "action": "RECOVERY_ATTEMPT",
+      "timestamp": "2026-09-25T19:08:28.472Z",
+      "hash": "6d937e3db0ddbe4beaf35382678981c5ac9fbe83ea900f122b68de4bf886cf59"
+    }
+  ]
+}

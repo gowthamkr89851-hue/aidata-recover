@@ -1,0 +1,52 @@
+{
+  "reportId": "rep_rec_1790348501084_782600b9",
+  "timestamp": "2026-09-25T15:01:44.589Z",
+  "originalFilename": "simple_input.jpg",
+  "fileType": "JPG",
+  "fileSize": 516,
+  "sha256": "488bfe117024744b4657bd25d8aae418a4f65f89dfdd52a6e18cb2f4bf65df61",
+  "damageStatus": "INTACT",
+  "evidenceSources": [],
+  "recoveryMetrics": {
+    "recoveredPercentage": 0,
+    "aiInferredPercentage": 0,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "UNRECOVERABLE"
+  },
+  "validationResults": {
+    "structureValid": false,
+    "signatureValid": false,
+    "formatConsistency": false,
+    "score": 0,
+    "checks": [
+      "FAIL: Unknown Format Signature Match No valid magic bytes or format structure identified"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 0 verified fragments with JPG structure validation. Classification: UNRECOVERABLE.",
+  "limitations": [
+    "Unrecognized file structure and zero valid format signatures found. Original data unrecoverable."
+  ],
+  "aiAssessment": null,
+  "auditTrail": [
+    {
+      "action": "UPLOAD",
+      "timestamp": "2026-09-25T15:01:23.882Z",
+      "hash": "a7b75f392abe0bee279df9a4b73e480b327acc4d755553dca73638d4028bd863"
+    },
+    {
+      "action": "ANALYZE",
+      "timestamp": "2026-09-25T15:01:30.736Z",
+      "hash": "59d5da5ffa58a64665e3a2c7ae962f8c84f5216f9891054082c0907ebb9ae0ef"
+    },
+    {
+      "action": "RECOVERY_ATTEMPT",
+      "timestamp": "2026-09-25T15:01:34.660Z",
+      "hash": "488bfe117024744b4657bd25d8aae418a4f65f89dfdd52a6e18cb2f4bf65df61"
+    },
+    {
+      "action": "RECOVERY_ATTEMPT",
+      "timestamp": "2026-09-25T15:01:41.103Z",
+      "hash": "488bfe117024744b4657bd25d8aae418a4f65f89dfdd52a6e18cb2f4bf65df61"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "reportId": "rep_rec_1790362876817_f1cec91d",
+  "timestamp": "2026-09-25T19:01:22.902Z",
+  "userDescription": "No user issue description provided.",
+  "originalFilename": "fragment_image_03.bin",
+  "fileType": "UNKNOWN",
+  "fileSize": 17,
+  "sha256": "d55da6a930ebdc27d0916dbc1477a8101492a0bb6cac61194c86c37a26a72b68",
+  "damageStatus": "UNKNOWN_FORMAT",
+  "evidenceSources": [],
+  "recoveryMetrics": {
+    "recoveredPercentage": 0,
+    "reconstructedPercentage": 0,
+    "enhancedPercentage": 0,
+    "aiInferredPercentage": 0,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "UNRECOVERABLE"
+  },
+  "validationResults": {
+    "structureValid": false,
+    "signatureValid": false,
+    "formatConsistency": false,
+    "score": 0,
+    "checks": [
+      "Zero recoverable evidence found"
+    ]
+  },
+  "recoveryExplanation": "File original data cannot be established because no matching evidence fragments or valid file headers exist. Missing bytes were not fabricated.",
+  "limitations": [
+    "Original data unrecoverable from provided sample",
+    "No ground-truth evidence available"
+  ],
+  "aiAssessment": null,
+  "auditTrail": [
+    {
+      "action": "UPLOAD",
+      "timestamp": "2026-09-25T19:01:00.642Z",
+      "hash": "d7f3006c705e1eb7c236b2496df17b4fbf69cfd087274b90fbcf94ad74212a6f"
+    },
+    {
+      "action": "ANALYZE",
+      "timestamp": "2026-09-25T19:01:00.681Z",
+      "hash": "b3ccec0b909f24cb44b897040f124608a6251fec0d37e09046b32edc9b3a9dd3"
+    },
+    {
+      "action": "RECOVERY_ATTEMPT",
+      "timestamp": "2026-09-25T19:01:17.859Z",
+      "hash": "NO_SHA"
+    }
+  ]
+}

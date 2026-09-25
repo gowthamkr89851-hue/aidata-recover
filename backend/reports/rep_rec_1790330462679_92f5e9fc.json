@@ -1,0 +1,46 @@
+{
+  "reportId": "rep_rec_1790330462679_92f5e9fc",
+  "timestamp": "2026-09-25T10:01:02.782Z",
+  "originalFilename": "pdf_frag_01.bin",
+  "fileType": "PDF",
+  "fileSize": 321,
+  "sha256": "f628432eda521b8615002f51f7758a9818713d28056148c6c7cd333b3868d26b",
+  "damageStatus": "TRUNCATED",
+  "evidenceSources": [],
+  "recoveryMetrics": {
+    "recoveredPercentage": 90,
+    "aiInferredPercentage": 10,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "AI_INFERRED"
+  },
+  "validationResults": {
+    "structureValid": true,
+    "signatureValid": true,
+    "formatConsistency": false,
+    "score": 40,
+    "checks": [
+      "PASS: PDF Header Signature (%PDF-)",
+      "PASS: PDF Trailer Signature (%%EOF)",
+      "FAIL: PDF Document Catalog (/Catalog)",
+      "FAIL: PDF Page Tree (/Pages)",
+      "FAIL: PDF Object Structure Balance (obj/endobj)"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 0 verified fragments with PDF structure validation. Classification: AI_INFERRED.",
+  "limitations": [
+    "File structure repaired using AI contextual inference. Non-verified sections marked AI_INFERRED."
+  ],
+  "aiAssessment": null,
+  "auditTrail": [
+    {
+      "action": "UPLOAD",
+      "timestamp": "2026-09-25T10:01:02.640Z",
+      "hash": "239a9f4f43e4f284e993ce7b825ea076c5c098f42cfa9a93fdc7b6424658bf5e"
+    },
+    {
+      "action": "RECOVERY_ATTEMPT",
+      "timestamp": "2026-09-25T10:01:02.688Z",
+      "hash": "6897376a8267d8829f8e5acacd2bcc3001ff14515c900c41068e63b3b44fc297"
+    }
+  ]
+}

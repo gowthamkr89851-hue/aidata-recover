@@ -1,0 +1,30 @@
+{
+  "reportId": "rep_rec_1790353233825_b365aa8d",
+  "timestamp": "2026-09-25T16:20:33.851Z",
+  "originalFilename": "Unknown",
+  "fileType": "UNKNOWN",
+  "fileSize": 0,
+  "sha256": "N/A",
+  "damageStatus": "CORRUPTED",
+  "evidenceSources": [],
+  "recoveryMetrics": {
+    "recoveredPercentage": 100,
+    "aiInferredPercentage": 0,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "VERIFIED_RECOVERED"
+  },
+  "validationResults": {
+    "structureValid": true,
+    "signatureValid": true,
+    "formatConsistency": true,
+    "score": 100,
+    "checks": [
+      "PASS: UTF-8 String Decoding",
+      "PASS: Printable Text Character Ratio Ratio: 100.0%"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 1 verified fragments with TXT structure validation. Classification: VERIFIED_RECOVERED.",
+  "limitations": [],
+  "aiAssessment": null,
+  "auditTrail": []
+}

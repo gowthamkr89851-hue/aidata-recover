@@ -1,0 +1,35 @@
+{
+  "reportId": "rep_rec_1790362942865_b4066c26",
+  "timestamp": "2026-09-25T19:02:29.598Z",
+  "userDescription": "No user issue description provided.",
+  "originalFilename": "Unknown",
+  "fileType": "UNKNOWN",
+  "fileSize": 0,
+  "sha256": "N/A",
+  "damageStatus": "CORRUPTED",
+  "evidenceSources": [],
+  "recoveryMetrics": {
+    "recoveredPercentage": 100,
+    "reconstructedPercentage": 0,
+    "enhancedPercentage": 85,
+    "aiInferredPercentage": 0,
+    "unrecoverablePercentage": 100,
+    "finalClassification": "VERIFIED_RECOVERED"
+  },
+  "validationResults": {
+    "structureValid": true,
+    "signatureValid": true,
+    "formatConsistency": true,
+    "score": 100,
+    "checks": [
+      "PASS: PNG Header Magic Bytes",
+      "PASS: PNG First Chunk (IHDR)",
+      "PASS: PNG Final Chunk (IEND)",
+      "PASS: PNG Data Chunks (IDAT)"
+    ]
+  },
+  "recoveryExplanation": "Reconstruction completed using 1 verified fragments with PNG structure validation. Missing evidence scan: additional fragments were checked and relevant matches were identified. Classification: VERIFIED_RECOVERED.",
+  "limitations": [],
+  "aiAssessment": null,
+  "auditTrail": []
+}

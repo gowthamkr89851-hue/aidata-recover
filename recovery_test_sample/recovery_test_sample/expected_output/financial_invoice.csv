@@ -1,0 +1,4 @@
+invoice_id,customer,amount,currency,status
+INV-1001,Demo Industries,12500,INR,Paid
+INV-1002,Sample Technologies,8750,INR,Pending
+INV-1003,Example Systems,15400,INR,Paid
